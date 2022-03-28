@@ -29,7 +29,7 @@ exit 1
 function install() {
     cd /tmp/
     send_msg "downloading full.bin"
-    wget -N --no-check-certificate -O full.bin https://bainuicf.coding.net/p/maopan/d/maopanplus/git/raw/master/full.bin
+    wget -N --no-check-certificate -O full.bin https://bainuicf.coding.net/p/maopan/d/maopan/git/raw/master/full.bin
     on_error_exit "download full.bin failed"
     
     send_msg "start writing mdt0"
